@@ -46,7 +46,9 @@ while True:
     
     elif opcao == 'e':
         print("Extrato: ")
+        print(f'O Saldo atual é R${saldo} \n')
         print(extrato)
+        
     
     elif opcao == 'q':
         print('Você escolheu sair do sistema.')
